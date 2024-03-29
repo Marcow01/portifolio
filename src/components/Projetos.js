@@ -30,7 +30,7 @@ function Projetos() {
                     <div className="bg-blue-700 flex items-center py-2 px-3 rounded-lg"><SiPhp /><a className="ml-2">PHP</a></div>
                   </div>
                   <div class="flex items-center flex-wrap text-[#56ab2f]">
-                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold mt-4" target="_blank" href="https://resistor-app.vercel.app/">see more
+                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold mt-4" target="_blank" href="https://tekhnesol.vercel.app/">see more
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
@@ -107,14 +107,12 @@ function Projetos() {
                   <div className="bg-orange-500 flex items-center py-2 px-3 rounded-lg"><SiFirebase /><a className="ml-2">Fisebase</a></div>
                   </div>
 
-                  <div class="flex items-center flex-wrap text-[#56ab2f]">
-                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold" target="_blank" href="https://resistor-app.vercel.app/">see more
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
+                  
+                  <div class="flex items-center flex-wrap gap-2 text-[#56ab2f]">
+                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold" target="_blank" href="https://resistor-app.vercel.app/">making adjustments
                     </a>
-                  </div>    
+                    <FiAlertTriangle/>
+                  </div>  
                 </div>
               </div>
             </div>          
@@ -133,7 +131,7 @@ function Projetos() {
               <div className="bg-orange-500 flex items-center py-2 px-3 rounded-lg"><IoLogoJavascript /><a className="ml-2">JavaScript</a></div>
                   </div>
                   <div class="flex items-center flex-wrap text-[#56ab2f]">
-                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold mt-4" target="_blank" href="https://resistor-app.vercel.app/">see more
+                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold mt-4" target="_blank" href="https://tlou2remake.vercel.app/">see more
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
@@ -169,7 +167,7 @@ function Projetos() {
       
           <div className="mt-16 flex gap-1.5">
             <p className="text-white font-thin">and more on my github</p>
-            <a className="flex items-center font-bold text-white" href="https://github.com/marcow01"><IoLogoGithub className="mr-1"/> Github</a>
+            <a className="flex items-center font-bold text-white" href="https://github.com/marcow01" target="_blank"><IoLogoGithub className="mr-1"/> Github</a>
           </div>
     </div>
   );

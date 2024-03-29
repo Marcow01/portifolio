@@ -7,10 +7,11 @@ import Contato from './components/Contato'
 import Spline from '@splinetool/react-spline';
 
 function App() {
+  //https://prod.spline.design/TlJ66luQ3oTEzRkH/scene.splinecode maos
+  //https://prod.spline.design/OuVGtFc36eoHSoKa/scene.splinecode cubos
+  
   return (
     <div className="App">
-      
-      <Spline scene="https://prod.spline.design/GMEF2IXWs8aMJSNE/scene.splinecode" className='splinescene'/>
       
       <section className='w-7/12 p-5'>
         <Cabecalho></Cabecalho>
@@ -18,6 +19,8 @@ function App() {
         <Projetos></Projetos>
         <Contato></Contato>
       </section>
+
+      <Spline scene="https://prod.spline.design/DhEEN1S7ovkpuaa0/scene.splinecode" className='splinescene -z-10'/>
     </div>
   );
 }

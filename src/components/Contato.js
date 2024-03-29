@@ -26,9 +26,9 @@ function Contato() {
                 <div class="py-3">
                 <section>
                 <div className="flex items-center py-1 rounded-lg mb-2 font-normal"><MdEmail /><a className="ml-2">marcowcorrea01@gmail.com</a></div>
-                <div className=" flex items-center py-1 rounded-lg mb-2 font-normal"><IoLogoWhatsapp /><a className="ml-2">(94) 99208-0296</a></div>
-                <div className="flex items-center py-1 rounded-lg mb-2 font-normal"><FaLinkedinIn /><a className="ml-2">Marcos Vinícius</a></div>
-                <div className="flex items-center py-1 rounded-lg mb-2 font-normal"><IoLogoGithub /><a className="ml-2">Marcow01</a></div>
+                <div className=" flex items-center py-1 rounded-lg mb-2 font-normal"><IoLogoWhatsapp /><a className="ml-2"  href="https://wa.me/9492080296" target="_blank">(94) 99208-0296</a></div>
+                <div className="flex items-center py-1 rounded-lg mb-2 font-normal"><FaLinkedinIn /><a className="ml-2" href="https://www.linkedin.com/in/marcos-corr%C3%AAa-885314211/" target="_blank">Marcos Vinícius</a></div>
+                <div className="flex items-center py-1 rounded-lg mb-2 font-normal"><IoLogoGithub /><a className="ml-2"  href="https://github.com/marcow01" target="_blank">Marcow01</a></div>
                 </section>
                 </div>
               </div>
