@@ -6,6 +6,7 @@ import Projetos from './components/Projetos'
 import Contato from './components/Contato'
 import Spline from '@splinetool/react-spline';
 
+
 function App() {
 
   //https://prod.spline.design/TlJ66luQ3oTEzRkH/scene.splinecode maos
@@ -17,12 +18,13 @@ function App() {
   
   return (
     <div className="App">
-      <section className='container p-5'>
-        <Cabecalho></Cabecalho>
-        <Corpo></Corpo>
-        <Projetos></Projetos>
-        <Contato></Contato>
-      </section>
+        <Spline scene="https://prod.spline.design/DhEEN1S7ovkpuaa0/scene.splinecode" className='splinescene -z-10'/>
+        <section className='container p-5'>
+          <Cabecalho></Cabecalho>
+          <Corpo></Corpo>
+          <Projetos></Projetos>
+          <Contato></Contato>
+        </section>
     </div>
   );
 }
