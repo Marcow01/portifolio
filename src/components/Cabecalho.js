@@ -3,7 +3,7 @@ import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle }
 
 function Cabecalho() {
   return (
-    <Navbar fluid rounded className="bg-transparent p-0 sm:p-0">
+    <Navbar fluid rounded className="bg-transparent p-0 sm:p-0 select-none">
       <div className="flex md:order-2">
         <Button className="bg-[#56ab2f]">contact me</Button>
         <NavbarToggle />
@@ -12,9 +12,8 @@ function Cabecalho() {
         <NavbarLink href="#" className="text-white font-bold">
           home
         </NavbarLink>
-        <NavbarLink href="#" className="text-white font-normal">about</NavbarLink>
-        <NavbarLink href="#" className="text-white font-normal">projects</NavbarLink>
-        <NavbarLink href="#" className="text-white font-normal">contact</NavbarLink>
+        <NavbarLink href="#projetos" className="text-white font-normal">projects</NavbarLink>
+        <NavbarLink href="#contato" className="text-white font-normal">contact</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );

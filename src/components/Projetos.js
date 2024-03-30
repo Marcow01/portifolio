@@ -3,7 +3,6 @@ import { SiPhp, SiArduino, SiCplusplus, SiFirebase } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BsBadge3DFill } from "react-icons/bs";
 import { IoLogoGithub } from "react-icons/io";
-import { FaArrowRight } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
 import { SiFastify } from "react-icons/si";
 import { SiMongodb } from "react-icons/si"
@@ -12,9 +11,8 @@ import { FiAlertTriangle } from "react-icons/fi";
 
 function Projetos() {
   return (
-    <div className="mt-64">
-
-      <a className="text-white text-5xl font-bold">Projects</a>
+    <div className="mt-48" id="projetos">
+      <div className="text-white text-5xl font-bold cursor-default pt-24">Projects</div>
 
       <div class="flex flex-wrap -m-4 mt-8 text-white">
             <div class="p-4 md:w-1/2">
@@ -57,7 +55,7 @@ function Projetos() {
                   </div>
 
                   <div class="flex items-center flex-wrap text-[#56ab2f]">
-                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold" target="_blank" href="https://resistor-app.vercel.app/">see more
+                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold" target="_blank" href="https://www.canva.com/design/DAFkZt7QY3A/MA22B1RAuecn_BC87HCZoQ/view">see more
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
                         <path d="M12 5l7 7-7 7"></path>
@@ -109,7 +107,7 @@ function Projetos() {
 
                   
                   <div class="flex items-center flex-wrap gap-2 text-[#56ab2f]">
-                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold" target="_blank" href="https://resistor-app.vercel.app/">making adjustments
+                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold" target="_blank" href="">making adjustments
                     </a>
                     <FiAlertTriangle/>
                   </div>  
@@ -156,7 +154,7 @@ function Projetos() {
                   </div>
 
                   <div class="flex items-center flex-wrap gap-2 text-[#56ab2f]">
-                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold" target="_blank" href="https://resistor-app.vercel.app/">in development
+                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold" target="_blank" href="">in development
                     </a>
                     <FiAlertTriangle/>
                   </div>    

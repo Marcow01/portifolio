@@ -8,8 +8,8 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 function Contato() {
   return (
-    <div className="mt-64 w-full pb-36">
-      <p className="text-white text-5xl font-bold text-center">Contact</p>
+    <div className="mt-64 w-full pb-44" id="contato">
+      <p className="text-white text-5xl font-bold text-center cursor-default">Contact</p>
 
       <div class="flex flex-wrap -m-4 mt-8 text-white">
             <div class="p-4 md:w-1/2">
