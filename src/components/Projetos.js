@@ -8,6 +8,11 @@ import { SiFastify } from "react-icons/si";
 import { SiMongodb } from "react-icons/si"
 import { SiTypescript } from "react-icons/si";
 import { FiAlertTriangle } from "react-icons/fi";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { SiFlask } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiNextui } from "react-icons/si";
 
 function Projetos() {
   return (
@@ -94,8 +99,8 @@ function Projetos() {
 
             <div class="p-4 md:w-1/2">
               <div class="rounded-lg overflow-hidden">
-                <p className="text-gray-400 font-light text-xs">February 2022</p>
-                <a className="font-bold">CHAT APP</a>
+                <p className="text-gray-400 font-light text-xs">February 2023</p>
+                <a className="font-bold">CHATWEB</a>
                 <div class="py-3">
                   <p class="leading-relaxed mb-3 text-justify">Real-time chat built on Firebase and Reactjs database.</p>
                   <div className="flex mt-2 gap-2 flex-wrap mb-4">
@@ -128,14 +133,7 @@ function Projetos() {
               <div className="bg-orange-400 flex items-center py-2 px-3 rounded-lg"><FaHtml5 /><a className="ml-2">HTML</a></div>
               <div className="bg-orange-500 flex items-center py-2 px-3 rounded-lg"><IoLogoJavascript /><a className="ml-2">JavaScript</a></div>
                   </div>
-                  <div class="flex items-center flex-wrap text-[#56ab2f]">
-                    <a class="inline-flex items-center md:mb-2 lg:mb-0 cursor-pointer hover:text-gray-500 font-bold mt-4" target="_blank" href="https://tlou2remake.vercel.app/">see more
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>    
+                   
                 </div>
               </div>
             </div>
@@ -161,7 +159,42 @@ function Projetos() {
                 </div>
               </div>
             </div>
+          
           </div>
+
+          <div class="flex flex-wrap -m-4 mt-8 text-white">
+              <div class="p-4 md:w-1/2">
+                <div class="rounded-lg overflow-hidden">
+                  <p className="text-gray-400 font-light text-xs">December 2024</p>
+                  <a className="font-bold">TELEGRAM BOT</a>
+                  <div class="py-3">
+                    <p class="leading-relaxed mb-3 text-justify">Creation of a payment bot on Telegram, integrating payment platforms to automate sales, manage transactions and offer an efficient experience for your customers.</p>
+                    <div className="flex mt-2 gap-2 flex-wrap mb-4">
+                      <div className="bg-[#306998] flex items-center py-2 px-3 rounded-lg"><FaPython /><a className="ml-2">Python</a></div>
+                      <div className="bg-[#6CC1E3] flex items-center py-2 px-3 rounded-lg"><FaTelegramPlane /><a className="ml-2">Telegram</a></div>
+                      <div className="bg-blue-500 flex items-center py-2 px-3 rounded-lg"><SiFlask /><a className="ml-2">Flask</a></div>
+                      <div className="bg-orange-500 flex items-center py-2 px-3 rounded-lg"><SiFirebase /><a className="ml-2">Fisebase</a></div>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-4 md:w-1/2">
+                <div class="rounded-lg overflow-hidden">
+                  <p className="text-gray-400 font-light text-xs">November 2024</p>
+                  <a className="font-bold">DASHBOARD</a>
+                  <div class="py-3">
+                    <p class="leading-relaxed mb-3 text-justify">Development of modern and interactive user interfaces for sales management, user visualization and sensitive data.</p>
+                    <div className="flex mt-2 gap-2 flex-wrap mb-4">
+                      <div className="bg-[#306998] flex items-center py-2 px-3 rounded-lg"><SiNextdotjs /><a className="ml-2">Next.js</a></div>
+                      <div className="bg-[#6CC1E3] flex items-center py-2 px-3 rounded-lg"><SiNextui /><a className="ml-2">Shadcn.ui</a></div>
+                      <div className="bg-orange-500 flex items-center py-2 px-3 rounded-lg"><SiFirebase /><a className="ml-2">Fisebase</a></div>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
       
           <div className="mt-16 flex gap-1.5">
             <p className="text-white font-thin">and more on my github</p>

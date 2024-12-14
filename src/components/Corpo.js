@@ -1,8 +1,7 @@
-import Typed from 'typed.js';
 import React from 'react';
 import { Button } from "flowbite-react";
 import { HiDownload } from "react-icons/hi";
-import MyPDF from '../assets/docs/MARCOWCV.pdf';
+import MyPDF from '../assets/docs/MARCOSCORREA.pdf';
 
 function Corpo() {
   return (
@@ -17,7 +16,7 @@ function Corpo() {
         </div>
         <div className="text-white ml-4 corpo">
           <p class="text-white font-bold">About</p>
-          <p class="text-white text-justify mt-2 mb-2">Hello, I'm a web developer specializing in creating websites with modern design and solid programming. With application development with 3D objects and scenes, database integrations, minimalist and fast design, creation of APIs with NODEJS, electronic projects with Arduino and ESP32 and CAD drawings.</p>
+          <p class="text-white text-justify mt-2 mb-2">Hello, I'm a front-end developer with extensive experience in several areas of technology. I work on developing interactive applications with 3D objects and scenes, creating responsive, high-performance interfaces with minimalist design. I have expertise in database integrations, consumption and creation of APIs using Node.js, development of electronic projects with Arduino and ESP32, as well as technical drawing with CAD tools.</p>
           <a href={MyPDF} download="MARCOWCV.pdf" className='select-none'>
           <Button className=' mt-2 bg-[#56ab2f] mb-2'>
           <HiDownload className="mr-2 h-5 w-5" />

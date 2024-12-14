@@ -13,7 +13,6 @@ function App() {
   //https://prod.spline.design/OuVGtFc36eoHSoKa/scene.splinecode cubos
   //<Spline scene="https://prod.spline.design/DhEEN1S7ovkpuaa0/scene.splinecode" className='splinescene -z-10'/>
 
-  
   return (
     <div className="App">
         <Spline scene="https://prod.spline.design/DhEEN1S7ovkpuaa0/scene.splinecode" className='splinescene -z-10'/>
