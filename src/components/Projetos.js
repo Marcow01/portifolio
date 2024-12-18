@@ -127,7 +127,7 @@ function Projetos() {
                 <p className="text-gray-400 font-light text-xs">March 2021</p>
                 <a className="font-bold">TLOU2 REMAKE WEBSITE</a>
                 <div class="py-3">
-                  <p class="leading-relaxed mb-3 text-justify">Development of a remake of the sales website for the electronic game THE LAST OF US 2 with a celebratory and minimalist style.</p>
+                  <p class="leading-relaxed mb-3 text-justify">Development of a sales website remake for the electronic game THE LAST OF US 2 with a celebratory and minimalist style</p>
                   <div className="flex mt-2 gap-2 flex-wrap">
                   <div className="bg-blue-500 flex items-center py-2 px-3 rounded-lg"><FaCss3 /><a className="ml-2">CSS</a></div>
               <div className="bg-orange-400 flex items-center py-2 px-3 rounded-lg"><FaHtml5 /><a className="ml-2">HTML</a></div>
@@ -143,7 +143,7 @@ function Projetos() {
                 <p className="text-gray-400 font-light text-xs">February 2024</p>
                 <a className="font-bold">LUDO GAME</a>
                 <div class="py-3">
-                  <p class="leading-relaxed mb-3 text-justify">beginning of the creation of a multiplayer board game (ludo).</p>
+                  <p class="leading-relaxed mb-3 text-justify">beginning of a multiplayer board game creation.</p>
                   <div className="flex mt-2 gap-2 flex-wrap mb-4">
                     <div className="bg-[#215732] flex items-center py-2 px-3 rounded-lg"><FaNodeJs /><a className="ml-2">NodeJs</a></div>
                     <div className="bg-[#4db33d] flex items-center py-2 px-3 rounded-lg"><SiMongodb /><a className="ml-2">Mongodb</a></div>
